@@ -1,0 +1,94 @@
+html, body{
+     background-color: black;
+}
+
+*
+{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.card
+{
+     display: flex;
+     width: 100%;
+     height: 600px;
+     margin-top: 30px;
+}
+
+/*images*/
+
+.p1, .p2, .p3
+{
+     width: 100%;
+     height: 300px;
+     border: 1px solid #ccc;
+}
+ 
+.card-title
+{
+     text-transform: capitalize;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: bold;
+}
+
+.card-text
+{
+     font-size: 16px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 400;
+     font-style: normal;
+}
+
+.price_disc
+{
+     width: 100%;
+     height: 50px;
+
+}
+
+.price_disc h3
+{
+     font-size: 26px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: red;
+
+}
+
+.disc 
+{
+     background-color: lime;
+     color: black;
+     border-radius: 3px;
+     height: 30px;
+     padding: 1px;
+     text-align: center;
+     font-size: 16px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     -webkit-box-shadow: 0px -3px 30px -14px rgba(255, 255, 255, 0.75);
+     -moz-box-shadow: 0px -3px 30px -14px rgba(255, 255, 255, 0.75);
+     box-shadow: 0px -3px 30px -14px rgba(255, 255, 255, 0.75);
+}
+
+.add
+{
+     width: 100%;
+     background-color: black;
+     color: #FFF;
+}
+
+.add:hover
+{
+     background-color: #ccc;
+     color: black;
+}
+
+.add::selection
+{
+     outline: none;
+     border: none;
+}
